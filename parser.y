@@ -19,6 +19,7 @@ members: sexpr              {printf("members 1\n");}
 atom: ID                    {printf("ID\n");}
     | NUM                   {printf("NUM\n");}
     | STR                   {printf("STR\n");}
+    | BOOL                  {printf("BOOL\n");}
     ;
 
 %%
